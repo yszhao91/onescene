@@ -34,4 +34,6 @@
 
 ## 安慰我
 
+尽可能 STAR 我
+要么给钱
 ![img](assets/wechat.png)
