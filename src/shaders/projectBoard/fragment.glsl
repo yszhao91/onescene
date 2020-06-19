@@ -1,0 +1,1 @@
+export default "#define GLSLIFY 1\nuniform sampler2D uTexture;\nuniform vec3 uColor;\nuniform float uTextureAlpha;\n\nvarying vec2 vUv;\n\nvoid main()\n{\n    vec4 textureColor = texture2D(uTexture, vUv);\n\n    gl_FragColor = mix(vec4(uColor, 1.0), textureColor, uTextureAlpha);\n}\n";

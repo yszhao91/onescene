@@ -1,0 +1,1 @@
+export default "#define GLSLIFY 1\nvarying vec3 vPosition;\n\nvoid main()\n{\n    vec4 modelPosition = modelMatrix * vec4(position, 1.0);\n    gl_Position = projectionMatrix * viewMatrix * modelPosition;\n\n    vPosition = position;\n}\n";
