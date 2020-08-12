@@ -29,7 +29,7 @@ threejs 主页的一个不开源例子的重新实现
     webgl/three.js/ 学习交流群：284389784 by: 换孤
 
     本人也开有视频课：https://ke.qq.com/teacher/549184003?tuin=20bbe203
-    课程咨询群：632839661
+    threejs课程讨论咨询群：632839661
 
     我的github地址：https://github.com/yszhao91 欢迎大家follow star
     其他项目看我主页
