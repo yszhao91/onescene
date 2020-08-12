@@ -1,0 +1,39 @@
+{
+  "name": "webcad",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build:prod": "webpack --mode production",
+    "build:dev": "webpack --mode development"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/howler": "^2.2.0",
+    "@types/uuid": "^7.0.3",
+    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.10.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "cannon": "^0.6.2",
+    "css-loader": "^3.5.3",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "style-loader": "^1.2.1",
+    "three": "^0.116.1",
+    "three.meshline": "^1.2.0",
+    "ts-loader": "^7.0.4",
+    "file-loader": "^6.0.0",
+    "tsconfig-paths-webpack-plugin": "3.2.0",
+    "typescript": "^3.9.2",
+    "uuid": "^8.0.0",
+    "webpack": "^4.43.0",
+    "dat.gui": "^0.7.7",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "gsap": "^3.3.3",
+    "howler": "^2.2.0"
+  }
+}
